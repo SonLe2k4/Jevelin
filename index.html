@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/keyframe.css">
+    <link rel="stylesheet" href="/assets/css/shortHand.css">
+    <link rel="stylesheet" href="/assets/css/btn.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/assets/font_icon/themify-icons/themify-icons.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dự án 2 || Web bán đồ trang trí nội thất</title>
+</head>
+<body>
+    <div id="main">
+        <!-- this is main-header -->
+        <div id="header" class="grid">
+            <div class="grid wide">
+                <!-- wrapper header -->
+                <div class="wrapper-header wrapper-header--1">
+                    <!-- main-header--left -->
+                    <div class="header-content-left">
+                        <a href="#" class="wrapper-logo">
+                            <img src="/assets/img/Jevelin_logo_dark.png" alt="Logo">
+                        </a>
+                    </div>
+                    <!-- main-header--center -->
+                    <div class="header-content-center">
+                        <nav>
+                            <ul class="main-menu">
+                                <li><a class="fw-500" href="#">Home</a></li>
+                                <li><a class="fw-500" href="#">Shop</a></li>
+                                <li><a class="fw-500" href="#">Decor</a></li>
+                                <li><a class="fw-500" href="#">Plant</a></li>
+                                <li><a class="fw-500" href="#">Light</a></li>
+                                <li><a class="fw-500" href="#">Chair</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header-content-center__mobile grid">
+                            <form action="" id="form-search" class="wrapper-header wrapper-header__mobile wrapper-header--2" style="display: flex;">
+                                <input type="search" class="header-search" placeholder="Search Here..." required>
+                                <button type="submit" class="icon-search">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                                <div class="icon-close">
+                                    <i class="fas fa-times"></i>
+                                </div>
+                            </form>
+                            <ul class="list-social__mobile row no-gutter hidden-on-pc">
+                                <li class="col c-4 m-4"><a href="#"><i class='bx bxl-facebook bx-tada' ></i></a></li>
+                                <li class="col c-4 m-4"><a href="#"><i class='bx bxl-twitter bx-tada' ></i></a></li>
+                                <li class="col c-4 m-4"><a href="#"><i class='bx bxl-instagram bx-spin' ></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu_mobile js-menu_mobile hidden-on-pc">
+                        <span class="menu_mobile-link" >
+                            <span></span>
+                        </span>
+                    </div>
+                    <!-- main-header--right -->
+                    <div class="header-content-right">
+                        <nav>
+                            <!-- social network -->
+                            <ul class="list-social-network">
+                                <div class="df aic hidden-on-mobile-tablet">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <!-- cart and search -->
+                                    <li class="header-content-right__icon-search"><i class="fas fa-search"></i></li>
+                                </div>
+                                <li><a>
+                                        <div class="wrapper-cart">
+                                            <i class="fas fa-shopping-cart"></i>
+                                            <!-- quantity product -->
+                                            <span class="quantity-product tac">0</span>
+                                            <!-- information in the cart -->
+                                            <div class="info-in-cart">
+                                                <ul class="list-item-in-cart">
+                                                    <span>No products in the cart</span>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- wrapper search -->
+                <form action="" id="form-search" class="wrapper-header wrapper-header--2">
+                    <input type="search" id="header-search--id" class="header-search" placeholder="Search Here..." required>
+                    <button type="submit" class="icon-search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <div class="icon-close">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- this is main-content -->
+        <div id="content" class="grid wide">
+            <!-- part-1 -->
+            <div id="part-1" class="row no-gutter">
+                <!-- part-1--left -->
+                <div class="part-1_left col c-12 m-12 m-12 l-6 xl-6">
+                    <div class="part-1_left--inner">
+                        <div>
+                            <a href="#" class="btn btn-xsmall part-1_left__btn-1">New collection</a>
+                            <h1 class="heading-content fw-600">Fill your home with uniqueness</h1>
+                            <h2 class="sub-heading-content fw-600">Huge variety with modern glamour!</h2>
+                        </div>
+                        
+                        <a href="#" class="btn part-1_left__btn-2 btn-xxsmall">Explore 
+                            <i class="part-1_left__icon-down fas fa-angle-down"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- part-1-right -->
+                <div class="part-1_right col c-12 m-12 m-12 l-6 xl-6">
+                    <div class="part-1_right--inner">
+                        <img src="/assets/img/inside-weather-E5lK_COkD2E-unsplash-copy.jpg" alt="" class="part-1_right__img">
+                        <div class="btn part-1_right--inner__btn-1"><i class="fas fa-plus"></i></div>
+                        <div class="btn part-1_right--inner__btn-2"><i class="fas fa-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="part-1_end--link tac col c-o-1 c-10 l-o-3 l-6 xl-o-3 xl-6">
+                <a class="fw-600" href="#">! Use discount code: FIRSTIME to get 
+                    <span>10% off</span> 
+                    your first order !
+                </a>
+            </div>
+            <!-- part-2 -->
+            <div id="part-2" class="row">
+                <div class="part-2_inner-top col c-12 m-12 l-12 xl-10 xl-o-1">
+                    <ul class="part-2_container row gutter-20">
+                        <li class="part-2_container-item col c-o-1 c-10 m-12 l-4 xl-4">
+                            <div class="item-thumb">
+                                <img src="/assets/img/Layer-673.jpg" alt="">
+                            </div>
+                            <a href="#" class="btn btn-xsmall part-2_left__btn-1">New collection</a>
+                            <div class="part-2_container-item_heading">
+                               <h2 class="fw-600 tac"> Lights & Decor</h2>
+                            </div>
+                            <a href="#" class="btn part-2__show-more-link btn-xxsmall">Show more <i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="part-2_container-item col c-o-1 c-10 m-12 l-4 xl-4">
+                            <div class="item-thumb">
+                                <img src="/assets/img/Layer-675-copy-2.jpg" alt="">
+                            </div>
+                            <div class="part-2_container-item_heading">
+                               <h2 class="fw-600 tac">Kitchen Cutlery</h2>
+                            </div>
+                            <a href="#" class="btn part-2__show-more-link btn-xxsmall">Show more <i class="fas fa-chevron-right"></i></a>
+                        </li>
+                        <li class="part-2_container-item col c-o-1 c-10 m-12 l-4 xl-4">
+                            <div class="item-thumb">
+                                <img src="/assets/img/Layer-674.jpg" alt="">
+                            </div>
+                            <a href="#" class="btn btn-xsmall part-2_left__btn-1 bg-red">Sale</a>
+                            <div class="part-2_container-item_heading">
+                               <h2 class="fw-600 tac">Living Room</h2>
+                            </div>
+                            <a href="#" class="btn part-2__show-more-link btn-xxsmall">Show more <i class="fas fa-chevron-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="part-2_inner-bottom col c-o-half c-11 m-12 l-10 l-o-1 xl-10 xl-o-1">
+                    <ul class="part-2_container-2">
+                        <li class="part-2_container-2__item"><img src="/assets/img/mkit.png" alt="" class="part-2_container_thumb"></li>
+                        <li class="part-2_container-2__item"><img src="/assets/img/canstudio.png" alt="" class="part-2_container_thumb"></li>
+                        <li class="part-2_container-2__item"><img src="/assets/img/musclebase.png" alt="" class="part-2_container_thumb"></li>
+                        <li class="part-2_container-2__item"><img src="/assets/img/sbeauty.png" alt="" class="part-2_container_thumb"></li>
+                        <li class="part-2_container-2__item"><img src="/assets/img/sh.png" alt="" class="part-2_container_thumb"></li>
+                        <li class="part-2_container-2__item"><img src="/assets/img/baloonbeaar.png" alt="" class="part-2_container_thumb"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="content_2" class="grid wide">
+            <!-- part-3 -->
+            <div id="part-3" class="row gutter-0">
+                <div class="part-3__inner col c-12 m-12 l-12 xl-10 xl-o-1">
+                    <div class="row gutter-0">
+                        <div class="part-3_left col c-12 m-12 l-6 xl-6">
+                            <div class="part-3_left-wp_img">
+                                <img src="/assets/img/Ellipse-622-copy-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="part-3_right col c-12 m-12 l-6 xl-6">
+                            <div class="part-3_right_inner">
+                                <h2 class="part-3_right__heading">Our special offer</h2>
+                                <h2 class="part-3_right__heading-large fw-600">Featured products with amazing color variety for your home</h2>
+                                <a href="#" class="btn btn-small part-3_right__btn-bottom">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content-3" class="grid wide">
+            <!-- part-4 -->
+            <div id="part-4" class="row">
+                <div class="part-4_inner col c-12 m-12 l-10 l-o-1 xl-10 xl-o-1">
+                    <ul class="part-4_container row guuter-0">
+                        <li class="part-4_container-item col c-12 m-12 l-4 xl-4">
+                            <div class="part-4_container-item__inner tac">
+                                <i class="sh-icon-data ti-time icon"></i>
+                                <h2 class="part-4__heading fw-600">
+                                    24 h Shipping
+                                </h2>
+                                <p class="part-4__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, impedit maiores similique ullam eius.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="part-4_container-item col c-12 m-12 l-4 xl-4">
+                            <div class="part-4_container-item__inner tac">
+                                <i class="sh-icon-data ti-truck icon"></i>
+                                <h2 class="part-4__heading fw-600">
+                                    Free Returns
+                                </h2>
+                                <p class="part-4__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, impedit maiores similique ullam eius.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="part-4_container-item col c-12 m-12 l-4 xl-4">
+                            <div class="part-4_container-item__inner tac">
+                                <i class="sh-icon-data ti-wallet icon"></i>
+                                <h2 class="part-4__heading fw-600">
+                                    100% Money Back Guarantee
+                                </h2>
+                                <p class="part-4__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, impedit maiores similique ullam eius.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- part-5 -->
+            <div id="part-5" class="row">
+                <div class="part-5_inner col c-12 m-12 l-12 xl-10 xl-o-1">
+                    <div class="part-5_top--inner">
+                        <div class="part-5_top--inner__heading tac fw-500">Ideas for inspiration</div>
+                        <div class="part-5_top--inner__img">
+                            <img src="/assets/img/Part-5.jpg" alt="">
+                        </div>
+                        <div class="btn part-5_top--inner__btn-1"><i class="fas fa-plus"></i></div>
+                        <div class="btn part-5_top--inner__btn-2"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="part-5_bottom--inner">
+                        <!-- this is part-5_bottom left -->
+                        <div class="part-5_bottom--inner_left">
+                            <h2 class="part-5_bottom--inner__heading fw-600">
+                                Find the closest store to your location
+                            </h2>
+                            <p class="part-5_bottom--inner__description">
+                                Quisque ut aliquam nunc, at finibus ante. Sed dignissim,
+                                nulla a fermentum egestas, odio
+                            </p>
+                        </div>
+                        <!-- this is part-5_bottom right -->
+                        <div class="part-5_bottom--inner_right">
+                            <a href="#" class="btn btn-small part-5_right__btn_right">
+                                Find now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content-4 -->
+        <div id="content-4" class="grid wide">
+            <!-- part-6 -->
+            <div id="part-6" class="row">
+                <div class="part-6__large-heading col col-full">
+                    <h1 class="fw-500 tac">
+                        Great deals for great prices
+                    </h1>
+                </div>
+                <div class="p70-15-80 col col-full">
+                    <ul class="part-6__list-products row gutter-30">
+                        <li class="part-6__product col c-o-2 c-8 m-6 l-3 xl-3">
+                            <div class="wp-item">
+                                <div class="part-6__product--top">
+                                    <a href="#" class="thumb-product">
+                                        <img src="/assets/img/list-thumb-product/prod-1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="part-6__product--info">
+                                    <div class="left">
+                                        <a href="#">
+                                            <h2 class="name-product fw-600">Table succulent plant</h2>
+                                            <span class="price-product">
+                                                <span class="currency-unit">$</span>
+                                                5.00
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="right">
+                                        <a href="#" class="btn-buy">
+                                            <i class='bx bx-cart'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="part-6__product col c-o-2 c-8 m-6 l-3 xl-3">
+                            <div class="wp-item">
+                                <div class="part-6__product--top">
+                                    <a href="#" class="thumb-product">
+                                        <img src="/assets/img/list-thumb-product/prod-2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="part-6__product--info">
+                                    <div class="left">
+                                        <a href="#">
+                                            <h2 class="name-product fw-600">Metallic sidetable lamp</h2>
+                                            <span class="price-product">
+                                                <span class="currency-unit">$</span>
+                                                5.00
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="right">
+                                        <a href="#" class="btn-buy">
+                                            <i class='bx bx-cart'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="part-6__product col c-o-2 c-8 m-6 l-3 xl-3">
+                            <div class="wp-item">
+                                <div class="part-6__product--top">
+                                    <a href="#" class="thumb-product">
+                                        <img src="/assets/img/list-thumb-product/prod-3.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="part-6__product--info">
+                                <div class="left">
+                                    <a href="#">
+                                        <h2 class="name-product fw-600">Wooden picture frame</h2>
+                                        <span class="price-product">
+                                            <span class="currency-unit">$</span>
+                                            5.00
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="btn-buy">
+                                        <i class='bx bx-cart'></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="part-6__product col c-o-2 c-8 m-6 l-3 xl-3">
+                            <div class="wp-item">
+                                <div class="part-6__product--top">
+                                    <a href="#" class="thumb-product">
+                                        <img src="/assets/img/list-thumb-product/prod-4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="part-6__product--info">
+                                    <div class="left">
+                                        <a href="#">
+                                            <h2 class="name-product fw-600">Bedroom mirror</h2>
+                                            <span class="price-product">
+                                                <span class="currency-unit">$</span>
+                                                5.00
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="right">
+                                        <a href="#" class="btn-buy">
+                                            <i class='bx bx-cart'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="part-6__product col c-o-2 c-8 m-6 l-3 xl-3">
+                            <div class="wp-item">
+                                <div class="part-6__product--top">
+                                    <a href="#" class="thumb-product">
+                                        <img src="/assets/img/list-thumb-product/prod-5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="part-6__product--info">
+                                    <div class="left">
+                                        <a href="#">
+                                            <h2 class="name-product fw-600">Minimalist chair</h2>
+                                            <span class="price-product">
+                                                <span class="currency-unit">$</span>
+                                                5.00
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="right">
+                                        <a href="#" class="btn-buy">
+                                            <i class='bx bx-cart'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="part-6__product col c-o-2 c-8 m-6 l-3 xl-3">
+                            <div class="wp-item">
+                                <div class="part-6__product--top">
+                                    <a href="#" class="thumb-product">
+                                        <img src="/assets/img/list-thumb-product/prod-6.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="part-6__product--info">
+                                    <div class="left">
+                                        <a href="#">
+                                            <h2 class="name-product fw-600">Cactus succulent plant</h2>
+                                            <span class="price-product">
+                                                <span class="currency-unit">$</span>
+                                                5.00
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="right">
+                                        <a href="#" class="btn-buy">
+                                            <i class='bx bx-cart'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="part-6__product col c-o-2 c-8 m-6 l-3 xl-3">
+                            <div class="wp-item">
+                                <div class="part-6__product--top">
+                                    <a href="#" class="thumb-product">
+                                        <img src="/assets/img/list-thumb-product/prod-7.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="part-6__product--info">
+                                    <div class="left">
+                                        <a href="#">
+                                            <h2 class="name-product fw-600">Decorative pillow</h2>
+                                            <span class="price-product">
+                                                <span class="currency-unit">$</span>
+                                                5.00
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="right">
+                                        <a href="#" class="btn-buy">
+                                            <i class='bx bx-cart'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="part-6__product col c-o-2 c-8 m-6 l-3 xl-3">
+                            <div class="wp-item">
+                                <div class="part-6__product--top">
+                                    <a href="#" class="thumb-product">
+                                        <img src="/assets/img/list-thumb-product/prod-8.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="part-6__product--info">
+                                    <div class="left">
+                                        <a href="#">
+                                            <h2 class="name-product fw-600">Metallic table lamp</h2>
+                                            <span class="price-product">
+                                                <span class="currency-unit">$</span>
+                                                5.00
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="right">
+                                        <a href="#" class="btn-buy">
+                                            <i class='bx bx-cart'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- part-7 -->
+            <div id="part-7" class="row">
+                <div class="part-7-container col c-11 c-o-half tac">
+                    <div class="part-7-container_large-heading">
+                        <h1 class="fw-600">Join the newsletter</h1>
+                    </div>
+                    <div class="part-7-container_description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris</p>
+                        <form action="" name="">
+                            <div class="form-group">
+                                <input class="form-control" type="search" required name="user-email" placeholder="Please enter your email here">
+                                <button class="btn btn-small" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footer-top plr-15px grid wide">
+                <ul class="row gutter-30 pb-65">
+                    <li class="col c-12 m-6 l-3 xl-3">
+                        <div class="wp-item">
+                            <h2 class="wp-item__heading">PAYMENT METHOD</h2>
+                            <p class="wp-item__description">Lorem ipsum dolor sit amet,
+                                consectetuer adipiscing elit, sed diam 
+                                nonummy nibh euismod tincidunt ut laoreet dolore.
+                            </p>
+                            <div class="wp-item__wp-icon-bank">
+                                <i class="bank-icon fab fa-cc-visa"></i>
+                                <i class="bank-icon fab fa-cc-mastercard"></i>
+                                <i class="bank-icon fab fa-cc-amex"></i>
+                                <i class="bank-icon fab fa-cc-paypal"></i>
+                                <i class="bank-icon fab fa-cc-jcb"></i>
+                            </div>
+                            <div class="wp-item_bottom">
+                                <i class="lock-icon fas fa-lock"></i>
+                                <p class="wp-item_bottom__description">               
+                                Secure online payment
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col c-12 m-6 l-3 xl-3">
+                        <div class="wp-item">
+                            <h2 class="wp-item__heading">TOP RATED</h2>
+                            <ul class="list-product-rated">
+                                <li class="wp-item_wp-product-rated">
+                                    <a href="#" class="link-product-rated">
+                                        <div class="thumb-product-rated">
+                                            <img src="/assets/img/list-thumb-product/prod-1.jpg" alt="">
+                                        </div>
+                                        <div class="info-product-rated">
+                                            <h3 class="name-product-rated">
+                                                Table succulent plan
+                                            </h3>
+                                            <span class="price-product-rated">
+                                                $5.00
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="wp-item_wp-product-rated">
+                                    <a href="#" class="link-product-rated">
+                                        <div class="thumb-product-rated">
+                                            <img src="/assets/img/list-thumb-product/prod-2.jpg" alt="">
+                                        </div>
+                                        <div class="info-product-rated">
+                                            <h3 class="name-product-rated">
+                                                Metallic sidetable lamp
+                                            </h3>
+                                            <span class="price-product-rated">
+                                                $5.00
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="wp-item_wp-product-rated">
+                                    <a href="#" class="link-product-rated">
+                                        <div class="thumb-product-rated">
+                                            <img src="/assets/img/list-thumb-product/prod-3.jpg" alt="">
+                                        </div>
+                                        <div class="info-product-rated">
+                                            <h3 class="name-product-rated">
+                                                Wooden picture frame
+                                            </h3>
+                                            <span class="price-product-rated">
+                                                $5.00
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="col c-12 m-6 l-3 xl-3">
+                        <div class="wp-item wp-item--right">
+                            <h2 class="wp-item__heading">SHOPPING GUIDE</h2>
+                            <ul class="list_more-info">
+                                <li><a class="list_more-info__guide" href="#">FAQ</a></li>
+                                <li><a class="list_more-info__guide" href="#">Shipment</a></li>
+                                <li><a class="list_more-info__guide" href="#">Returns</a></li>
+                                <li><a class="list_more-info__guide" href="#">Policies</a></li>
+                                <li><a class="list_more-info__guide" href="#">Gift cards</a></li>
+                                <li><a class="list_more-info__guide" href="#">Clothing care</a></li>
+                                <li><a class="list_more-info__guide" href="#">Purchase conditions</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="col c-12 m-6 l-3 xl-3">
+                        <div class="wp-item wp-item--right">
+                            <h2 class="wp-item__heading">COMPANY</h2>
+                            <ul class="list_more-info">
+                                <li><a class="list_more-info__guide" href="#">About us</a></li>
+                                <li><a class="list_more-info__guide" href="#">Press</a></li>
+                                <li><a class="list_more-info__guide" href="#">Our team</a></li>
+                                <li><a class="list_more-info__guide" href="#">Offices</a></li>
+                                <li><a class="list_more-info__guide" href="#">Affiliates</a></li>
+                                <li><a class="list_more-info__guide" href="#">Giveaway</a></li>
+                                <li><a class="list_more-info__guide" href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-bottom grid wide">
+                <p class="copy-right tac">Copyright© 2021 LeThanhSon - Theme by Shufflehound</p>
+            </div>
+        </div>
+        <!-- back top -->
+        <div id="back-top">
+            <i class="ti-angle-up"></i>
+        </div>
+        <!-- modal in mobile -->
+        <div class="modal_mobile"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(window).ready(function() {
+            $('#header .wrapper-header--2').css({
+                    'display': 'none'
+            })
+            $('.part-2_inner-top').addClass('open');
+            $('.part-2_left__btn-1').removeClass('open');
+            $('.part-1_left__btn-1').addClass('open');
+            $('.part-1_right').addClass('open');
+            $('#back-top').fadeOut();
+            
+            $(this).scroll(function() {
+                // add open to back-top when user scrollTop
+                if($(window).scrollTop() > 0) {
+                    $('#back-top').fadeIn();
+                } else {
+                    $('#back-top').fadeOut();
+                }
+            })
+            // when user click, will scrollTop
+            $('#back-top').click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 1000)
+            })
+
+            $(this).scroll(function() {
+                // add sticky class to id header when user scrolls
+                if ($(this).scrollTop() > 0) {
+                    $('#header').addClass('sticky');
+                    $('#header').css({
+                        'background-color': 'rgb(255 255 255 / 85%)',
+                        'border-bottom': '1px solid #ccc'
+                    })
+                } else {
+                    $('#header').removeClass('sticky');
+                    $('#header').css({
+                        'background-color': 'unset',
+                        'border-bottom': 'unset'
+                    })
+                }
+                // animate for part-1-right__img, part1-left btn-1
+                if ($(window).scrollTop() <= 700 ) {
+                    $('.part-1_left__btn-1').addClass('open');
+                    $('.part-1_right').addClass('open');
+                } else {
+                    $('.part-1_left__btn-1').removeClass('open');
+                    $('.part-1_right').removeClass('open');
+                }
+                // animate for part-2, btn in part-2
+                if ($(window).scrollTop() > 1500 || $(window).scrollTop() < 460) {
+                    $('.part-2_left__btn-1').removeClass('open');
+                    $('.part-2_inner-top').removeClass('open');
+                } else {
+                    $('.part-2_left__btn-1').addClass('open');
+                    $('.part-2_inner-top').addClass('open');
+                }
+                // animate for content-2 part-3
+                if ($(window).scrollTop() > 2500 || $(window).scrollTop() < 1400) {
+                    $('.part-3_right_inner').removeClass('open');
+                    $('.part-3_left-wp_img img').css({
+                        'transform': 'scale(1)'
+                    })
+                } else {
+                    $('.part-3_right_inner').addClass('open');
+                    $('.part-3_left-wp_img img').css({
+                        'transform': 'scale(.8)'
+                    })
+                }
+                // animate for content-3 part-5 
+                if ($(window).scrollTop() > 3600 || $(window).scrollTop() < 2000) {
+                    $('#part-5').removeClass('open');
+                } else {
+                    $('#part-5').addClass('open');
+                }
+                // animate for part-6
+                if ($(window).scrollTop() > 3280) {
+                    $('#part-6').addClass('open');
+                } else {
+                    $('#part-6').removeClass('open');
+                }
+            })
+            // animate for header
+            $('#header .wrapper-header .icon-close').click(function() {
+                $('#header .wrapper-header--1').css({
+                    'display': 'flex'
+                })
+                $('#header .wrapper-header--2').css({
+                    'display': 'none'
+                })
+            })
+            $('.header-content-right__icon-search').click(function() {
+                $('#header .wrapper-header--1').css({
+                    'display': 'none'
+                })
+                $('#header .wrapper-header--2').css({
+                    'display': 'flex'
+                })
+            })
+        })
+    </script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

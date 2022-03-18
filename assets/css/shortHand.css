@@ -1,0 +1,32 @@
+.p70-15-80 {
+    padding: 70px 15px 80px;
+}
+
+.pb-65 {
+    padding-bottom: 65px;
+}
+
+.plr-15px {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.tac {
+    text-align: center;
+}
+
+.df {
+    display: flex;
+}
+
+.df.aic {
+    align-items: center;
+}
